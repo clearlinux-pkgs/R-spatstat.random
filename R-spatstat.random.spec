@@ -4,7 +4,7 @@
 #
 Name     : R-spatstat.random
 Version  : 3.0.0
-Release  : 8
+Release  : 9
 URL      : https://cran.r-project.org/src/contrib/spatstat.random_3.0-0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/spatstat.random_3.0-0.tar.gz
 Summary  : Random Generation Functionality for the 'spatstat' Family

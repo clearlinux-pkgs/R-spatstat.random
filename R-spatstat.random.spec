@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-spatstat.random
-Version  : 3.1.5
-Release  : 18
-URL      : https://cran.r-project.org/src/contrib/spatstat.random_3.1-5.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/spatstat.random_3.1-5.tar.gz
+Version  : 3.1.6
+Release  : 19
+URL      : https://cran.r-project.org/src/contrib/spatstat.random_3.1-6.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/spatstat.random_3.1-6.tar.gz
 Summary  : Random Generation Functionality for the 'spatstat' Family
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -53,10 +53,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683816518
+export SOURCE_DATE_EPOCH=1694451223
 
 %install
-export SOURCE_DATE_EPOCH=1683816518
+export SOURCE_DATE_EPOCH=1694451223
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "

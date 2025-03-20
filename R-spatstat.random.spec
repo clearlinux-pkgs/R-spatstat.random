@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : R-spatstat.random
-Version  : 3.3.2
-Release  : 28
-URL      : https://cran.r-project.org/src/contrib/spatstat.random_3.3-2.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/spatstat.random_3.3-2.tar.gz
+Version  : 3.3.3
+Release  : 29
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/spatstat.random_3.3-3.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/spatstat.random_3.3-3.tar.gz
 Summary  : Random Generation Functionality for the 'spatstat' Family
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -63,10 +63,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740101005
+export SOURCE_DATE_EPOCH=1742482606
 
 %install
-export SOURCE_DATE_EPOCH=1740101005
+export SOURCE_DATE_EPOCH=1742482606
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
